@@ -15,7 +15,7 @@ Se ha automatizado la primera fase del proceso de transformación y limpieza de 
 
 Para obtener los datos necesarios para el análisis, sigue estos pasos:
 
-1. Visita el ![World Happiness Report 2023](https://worldhappiness.report/ed/2023/#appendices-and-data).
+1. Visita el [World Happiness Report 2023](https://worldhappiness.report/ed/2023/#appendices-and-data).
 2. Descarga los siguientes archivos:
 - Data for Figure 2.1
 - Data for Table 2.1
@@ -26,24 +26,24 @@ El proceso de limpieza y transformación de datos está automatizado mediante un
 
 1. Clona el Repositorio:
 
-'''python
-git clone hhttps://github.com/TaniaGraff/Modulo4/tree/main/ETL_limpieza_y_transformacion_archivos/data/input_data
+```python
+git clone https://github.com/TaniaGraff/Modulo4/
 cd travelers-happiness-dashboard/ETL_limpieza_y_transformacion_archivos
-'''
+```
 
 2. Instala las Dependencias:
 Asegúrate de tener Python instalado y luego instala las dependencias necesarias:
 
-'''python
+```python
 pip install -r requirements.txt
-'''
+```
 
 3. Ejecuta el Script de Limpieza y Transformación:
 Navega a la carpeta `ETL_limpieza_y_transformacion_archivos/scripts` y ejecuta el script `main.py`:
 
-'''python
+```python
 python scripts/main.py
-'''
+```
 
 Este script procesará los datos descargados y generará archivos limpios y transformados en la carpeta `ETL_limpieza_y_transformacion_archivos/data/output_data`.
 
