@@ -35,13 +35,13 @@ print('.....................................................')
 columnas_imputar = ['Healthy life expectancy', 'Explained by: Healthy life expectancy', 'Dystopia + residual']
 soporte.imputar_mediana(df_2023, columnas_imputar)
 
-#Llamamos a la función para igualar nombres columnas.
+#Llamamos a la función para igualar nombre columnas.
 soporte.igualar_columnas(df_2023)
 
 print('_________________   ALMACENAMIENTO DATAFRAME RANKING 2023   ________________________')
 
 #Llamamos a la función para guardar el DF 2023 resultante en la carpeta output_data.
-soporte.guardar_df(df_2023, 'ranking_2023.csv')
+soporte.guardar_df(df_2023, 'ranking_2023')
 
 
 
@@ -80,10 +80,10 @@ print('.....................................................')
 columnas_imputar = ['Log GDP per capita', 'Social support', 'Healthy life expectancy at birth', 'Freedom to make life choices', 'Generosity', 'Perceptions of corruption', 'Positive affect', 'Negative affect']
 soporte.imputar_mediana(df_historico, columnas_imputar)
 
-#Llamamos a la función para igualar nombres columnas.
+#Llamamos a la función para igualar nombre columnas.
 soporte.igualar_columnas(df_historico)
 
 print('_________________   ALMACENAMIENTO DATAFRAME RANKING 2023   ________________________')
 
 #Llamamos a la función para guardar el DF 2023 resultante en la carpeta output_data.
-soporte.guardar_df(df_historico, 'ranking_historico.csv')
+soporte.guardar_df(df_historico, 'ranking_historico')

@@ -74,5 +74,5 @@ def igualar_columnas(df):
 """
 def guardar_df(df, nombre_archivo):
     ruta_archivo = os.path.join(os.path.dirname(__file__), '..', 'data', 'output_data', nombre_archivo + '.csv')
-    df.to_csv(ruta_archivo, index=False)
+    df.to_csv(ruta_archivo, index=False, encoding='utf-8')
     print(f"El DataFrame se ha guardado en {ruta_archivo}")
