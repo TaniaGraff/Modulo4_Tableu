@@ -29,7 +29,7 @@ El proceso de limpieza y transformación de datos está automatizado mediante un
 
 ```python
 git clone https://github.com/TaniaGraff/Modulo4/
-cd travelers-happiness-dashboard/ETL_limpieza_y_transformacion_archivos
+cd Modulo4/ETL_limpieza_y_transformacion_archivos
 ```
 
 **2. Instala las Dependencias:**
