@@ -1,26 +1,24 @@
 # Módulo 4
-## ¿Felices Vacaciones? Análisis de los diez peores y mejores destinos turísticos del 2024.
+## Happy Holidays! Análisis de los mejores destinos turísticos del 2024.
 **Equipo desarrollo**: Elena Águila y Tania Graff 
 
-La prestigiosa revista de viajes *Travelers*, nos ha encargado la elaboración de un dashboard para hacer un reportaje con los diez mejores y peores destinos turísticos de este verano. La selección de los destinos se ha realizado tras un profundo análisis de los datos del World Happiness Report elaborado en 2023 para las Naciones Unidas.
+La prestigiosa revista de viajes *Travelers*, nos ha encargado la elaboración de un dashboard para hacer una serie de reportajes sobre los mejores destinos turísticos de este verano. La selección y clasificación de los destinos se ha realizado tras un profundo análisis de los datos del World Happiness Report elaborado en 2023 para las Naciones Unidas. [World Happiness Report 2023](https://worldhappiness.report/ed/2023/#appendices-and-data).
 
 ![imagen_portada_modulo](portada.png)
 
 
 ## **FASE 1: Exploración, Limpieza y Transformación el Conjunto de Datos**
 
-Se ha automatizado la primera fase del proceso de transformación y limpieza de datos para crear dos archivos .csv con los destinos mejor ranqueados en 2023, y el histórico de los mismos desde el 2008 hasta el 2022. Sigue estos pasos para ejecutar el script:
+Se ha automatizado la primera fase del proceso de transformación y limpieza de datos para crear dos archivos .csv con los destinos mejor ranqueados en 2023, y el histórico de los mismos desde el 2008 hasta el 2022. 
 
-### **Descarga de Datos**
-
-Para obtener los datos necesarios para el análisis, sigue estos pasos:
-
-1. Visita el [World Happiness Report 2023](https://worldhappiness.report/ed/2023/#appendices-and-data).
-
-2. Descarga los siguientes archivos:
+### **Estructura de archivos**
+**Data**
+- Archivos .csv de entrada:
     - Data for Figure 2.1
     - Data for Table 2.1
-3.  Guarda los archivos descargados en la carpeta `ETL_limpieza_y_transformacion_archivos/data/input_data` del repositorio.
+- Archivos .csv de salida:
+    - ranking_2023
+    - ranking_historico
 
 ### **Ejecución de la Limpieza y Transformación de Datos**
 El proceso de limpieza y transformación de datos está automatizado mediante un script en Python. Sigue estos pasos para ejecutar el script:
@@ -54,67 +52,11 @@ Revisa la carpeta `output_data` para asegurarte de que los archivos procesados s
 
 ## **FASE 2: Identificación de Objetivos**
 
-
 ### **Objetivos de Negocio**
 
-**1. Identificación de Destinos:** Seleccionar los diez mejores y diez peores destinos turísticos basados en el puntaje de felicidad.
+**1. Identificación de Destinos:** Seleccionar los  mejores destinos turísticos basados en el ranking de felicidad.
 
-**2. Análisis de Factores:** Evaluar cómo diferentes factores (apoyo social, ingresos, salud, libertad, generosidad, ausencia de corrupción) contribuyen a la felicidad en cada destino.
-
-**3. Visualización de Datos:** Proporcionar visualizaciones claras y comprensibles para facilitar la toma de decisiones informadas.
-
-**4. Aumento de Engagement:** Atraer y retener lectores a través de contenido relevante y visualmente atractivo.
-
-
-### **Preguntas Clave:**
-
-1. Identificación de Destinos:
-    - ¿Cuáles son los diez destinos turísticos más felices según el World Happiness Report?
-    - ¿Cuáles son los diez destinos turísticos menos felices según el World Happiness Report?
-
-2. Análisis de Factores:
-    - ¿Qué factores (apoyo social, ingresos, salud, libertad, generosidad, ausencia de corrupción) influyen más en la felicidad de los destinos seleccionados?
-    - ¿Cómo se comparan los destinos turísticos en cada uno de estos factores?
-
-3. Impacto en la Experiencia del Turista:
-    - ¿Cómo afecta la felicidad general de un destino a la experiencia del turista?
-    - ¿Qué destinos ofrecen un equilibrio óptimo entre todos los factores clave de felicidad?
-
-4. Recomendaciones:
-    - ¿Qué destinos deberían evitarse y por qué?
-    - ¿Qué destinos ofrecen una experiencia excepcional y por qué?
-
-
-## **FASE 3: Casos de Uso**
-
-### **Preguntas Clave y Soluciones Posibles**
-
-[En proceso]
-
-**Caso de Uso 1:**
-- Pregunta: *¿Cuáles son los diez mejores y los diez peores destinos turísticos según el puntaje de felicidad?*
-- Visualización Sugerida: Gráfico de barras horizontal mostrando los puntajes de felicidad (Ladder score) de los mejores y peores destinos.
-
-**Caso de Uso 2:**
-- Pregunta:
-- Visualización Sugerida:
-
-**Caso de Uso 3:**
-- Pregunta:
-- Visualización Sugerida:
-
-**Caso de Uso 4:**
-- Pregunta:
-- Visualización Sugerida:
-
-**Caso de Uso 5:**
-- Pregunta:
-- Visualización Sugerida:
-
-
-### **KPIs (Indicadores Clave de Desempeño)**
-
-Los KPIs seleccionados para este proyecto son fundamentales para evaluar y comparar los niveles de felicidad en los destinos turísticos:
+**2. Análisis de Factores:** Evaluar cómo los distintos factores considerados en el ranking de felicidad y listados a continuación, contribuyen al bienestar de los visitantes en cada destino turístico:
 
 - `Ladder Score` (Puntaje de Escalera): Mide el nivel general de felicidad de un país.
 
@@ -130,12 +72,45 @@ Los KPIs seleccionados para este proyecto son fundamentales para evaluar y compa
 
 - `Perceptions of Corruption` (Percepción de la Corrupción): Mide la percepción de corrupción en el gobierno y las instituciones.
 
-### **Visualizaciones en Tableau**
+**3. Visualización de Datos:** Proporcionar visualizaciones claras y comprensibles para facilitar la toma de decisiones informadas.
 
-El dashboard incluye varias visualizaciones clave para facilitar el análisis y la interpretación de los datos:
+**4. Aumento de Engagement:** Atraer y retener lectores a través de contenido relevante y visualmente atractivo.
 
-[En proceso]
 
+### **Preguntas Clave:**
+
+1. Identificación de Destinos:
+    - ¿Cuáles son los diez destinos turísticos más felices según el World Happiness Report?
+    - ¿Cuáles son los diez destinos turísticos menos felices según el World Happiness Report?
+    - ¿Cuáles son los diez destinos turísticos con mayor PIB per cápita?
+    - ¿Cuáles son los diez destinos con mayor apoyo social?
+    - ¿Cuáles son los diez destinos con mayor esperanza de vida?
+    - ¿Cuáles son los diez destinos con mayor libertad?
+    - ¿Cuáles son los diez destinos con mayor generosidad?
+    - ¿Cuáles son los diez destinos con mayor corrupción?
+
+2. Análisis de Factores:
+    - ¿Qué factores (apoyo social, ingresos, salud, libertad, generosidad, ausencia de corrupción) influyen más en la felicidad de los destinos seleccionados?
+    - ¿Cómo se comparan los destinos turísticos teniendo en cuenta cada uno de estos factores?
+
+3. Impacto en la Experiencia del Turista:
+    - ¿Cómo afecta la felicidad general de un destino a la experiencia del turista?
+    - ¿Qué destinos ofrecen un equilibrio óptimo entre todos los factores clave de felicidad?
+    - ¿Qué Factores Pueden Hacer que un Destino Sea Considerado de Alto Riesgo para los Turistas?    
+    - ¿Cómo se Clasifican los Destinos Según las Diferentes Tipologías de Turismo?"
+
+4. Recomendaciones:
+Clasificar los destinos según el tipo de experiencias que pueden ofrecer a los turistas.
+    - ¿Qué destinos ofrecen una experiencia de turismo excepcional y por qué?
+    - ¿Qué destinos ofrecen una experiencia de turismo de alto riesgo y por qué? 
+    - ¿Qué destinos ofrecen una experiencia de turismo colaborativo y solidario?
+    - ¿Qué destinos ofrecen una experiencia de turismo saludable?
+    - ¿Qué destinos ofrecen una experiencia de turismo de aventuras?
+    - ¿Qué destinos ofrecen una experiencia de turismo feliz o de la felicidad?
+    - ¿Qué destinos ofrecen una experiencia de turismo slow?
+
+
+## **FASE 3: Casos de Uso**
 ### **Público Objetivo del Dashboard**
 
 El dashboard está dirigido a:
@@ -145,4 +120,44 @@ El dashboard está dirigido a:
 **2. Turistas y Viajeros Potenciales:** Para proporcionarles información relevante sobre los mejores y peores destinos turísticos según los factores de felicidad.
 
 **3. Analistas de Datos y Profesionales del Turismo:** Para realizar análisis más profundos sobre cómo los factores de felicidad afectan a los destinos turísticos y tomar decisiones informadas.
+El dashboard de destinos turísticos más y menos felices no solo es una herramienta valiosa para la creación de contenidos en la revista Travelers, sino que también sirve como un recurso útil para diversos sectores del turismo. Al utilizar esta herramienta, se pueden desarrollar estrategias basadas en datos que mejoren la experiencia del turista, impulsen las economías locales y optimicen las operaciones y servicios en el sector, como por ejemplo:
+
+**Agencias de Viajes y Operadores Turísticos**
+- Marketing y Promoción: Utilizar el dashboard para identificar y promocionar otro tipo de destinos, atrayendo a más clientes interesados en experiencias positivas y en las nuevas tendencias de turismo, como el turismo de la felicidad o del bienestar.
+- Creación de Paquetes: Desarrollar paquetes turísticos a medida.
+
+**Hoteles, Alojamiento y Restauración**
+- Promociones y Ofertas: Crear ofertas especiales y promociones en los destinos para atraer a más turistas.
+
+**Gobiernos y Autoridades de Turismo**
+- Desarrollo de Infraestructura: Utilizar los datos para identificar áreas que necesitan mejoras en infraestructura y servicios públicos para aumentar la felicidad de locales y visitantes.
+- Estrategias de Promoción: Implementar campañas de promoción y marketing basadas en la felicidad y el bienestar de los destinos para atraer a más visitantes.
+
+**Comunidades Locales y Emprendedores**
+- Participación Ciudadana: Fomentar la participación de la comunidad local en la mejora de las experiencias para logar que el turismo tenga un impacto positivo en la localidad.
+- Desarrollo de Negocios: Identificar oportunidades de negocio y mejorar/ampliar sus servicios.
+
+**Seguros de Viaje**
+- Evaluación de Riesgos: Evaluar el nivel de satisfacción y seguridad en diferentes destinos, ajustando las pólizas y primas en consecuencia.
+- Productos Personalizados: Ofrecer productos de seguro específicos para los destinos que suponen un mayor riesgo para los turistas, incluyendo coberturas adicionales para imprevistos.
+- Promoción de Seguros: Crear campañas de publicidad y marketing de seguros de viaje en los destinos más felices, destacando la tranquilidad y seguridad que el seguro proporciona en estos lugares.
+
+
+### **Visualizaciones realizadas en Tableau**
+
+El dashboard incluye varias visualizaciones clave para facilitar el análisis y la interpretación de los datos.
+
+**Gráfico barras radial** que muestra los paises ordenados en función de su puesto en el ranking de la felicidad. El gráfico redirecciona a un mapa mundi para completar la visualización.
+
+**Gráfico temporal** que muestra la evolución de la tasa de felicidad en el país mejor y peor ranqueado a lo largo de los años, desde que se realiza el reporte mundial de la felicidad.
+
+**Gráficos de barras** que muestran los países mejor ranqueados en función de cada uno de los seis factores clave que inciden en la felicidad de un destino.
+
+**Gráficos de dispersión** que muestran la correlación entre algunos de los factores que inciden en la felicidad de un destino.
+
+
+
+
+
+
 
