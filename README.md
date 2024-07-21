@@ -165,6 +165,7 @@ El dashboard incluye varias visualizaciones clave para facilitar el análisis y 
 ![grafico-dispersion](grafico-dispersion.jpg)
 
 
+[Dashboard en Tableau del proyecto **Happy Holidays!**](https://public.tableau.com/views/vacaciones_17213286392290/HappinessMap2023?:language=es-ES&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
 
