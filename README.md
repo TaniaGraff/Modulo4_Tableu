@@ -1,6 +1,5 @@
 # Módulo 4
 ## Happy Holidays! Análisis de los mejores destinos turísticos del 2024. 
-[link visualización]
 **Equipo desarrollo**: Elena Águila y Tania Graff 
 
 La prestigiosa revista de viajes *Travelers*, nos ha encargado la elaboración de un dashboard para hacer una serie de reportajes sobre los mejores destinos turísticos de este verano. La selección y clasificación de los destinos se ha realizado tras un profundo análisis de los datos del World Happiness Report elaborado en 2023 para las Naciones Unidas. [World Happiness Report 2023](https://worldhappiness.report/ed/2023/#appendices-and-data).
