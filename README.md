@@ -114,7 +114,7 @@ Clasificar los destinos según el tipo de experiencias que pueden ofrecer a los 
 ### **Público Objetivo del Dashboard**
 El dashboard está dirigido a:
 
-**Editores y Escritores de la revista Travelers** para que puedan elaborar una serie de reportajes sobre los mejores destinos turísticos para este verano, basándose en datos precisos y visualmente atractivos.
+**Los Editores y Escritores de la revista Travelers** para que puedan elaborar una serie de reportajes sobre los mejores destinos turísticos de este verano, basándose en datos precisos y visualmente atractivos.
 
 El dashboard de destinos turísticos más y menos felices también sirve como un recurso útil para otros sectores relacionados con el turismo, como por ejemplo:
 
