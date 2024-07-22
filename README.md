@@ -116,7 +116,7 @@ El dashboard está dirigido a:
 
 **Editores y Escritores de la revista Travelers** para que puedan elaborar una serie de reportajes sobre los mejores destinos turísticos para este verano, basándose en datos precisos y visualmente atractivos.
 
-*El dashboard de destinos turísticos más y menos felices también sirve como un recurso útil para otros sectores relacionados con el turismo, como por ejemplo:*
+El dashboard de destinos turísticos más y menos felices también sirve como un recurso útil para otros sectores relacionados con el turismo, como por ejemplo:
 
     - Turistas y Viajeros Potenciales. Para proporcionarles información relevante sobre los mejores y peores destinos turísticos según los factores de felicidad.
 
