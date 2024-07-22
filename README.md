@@ -122,25 +122,15 @@ El dashboard de destinos turísticos más y menos felices también sirve como un
 
 - Analistas de Datos. Para realizar análisis más profundos sobre cómo los factores de felicidad afectan a los destinos turísticos y tomar decisiones informadas.
 
-- Agencias de Viajes y Operadores Turísticos
-    - Para identificar y promocionar otro tipo de destinos, atrayendo a más clientes interesados en experiencias positivas y en las nuevas tendencias de turismo, como el turismo de la felicidad o del bienestar.
-    - Para desarrollar paquetes turísticos a medida.
+- Agencias de Viajes y Operadores Turísticos. Para identificar y promocionar otro tipo de destinos, atrayendo a más clientes interesados en experiencias positivas y en las nuevas tendencias de turismo, como el turismo de la felicidad o del bienestar. O para desarrollar paquetes turísticos a medida.
 
-- Hoteles, Alojamiento y Restauración
-    - Para crear ofertas especiales y promociones en los destinos para atraer a más turistas.
+- Hoteles, Alojamiento y Restauración. Para crear ofertas especiales y promociones en los destinos para atraer a más turistas.
 
-- Gobiernos y Autoridades de Turismo
-    - Para identificar áreas que necesitan mejoras en infraestructura y servicios públicos para aumentar la felicidad de locales y visitantes.
-    - E implementar campañas de promoción y marketing basadas en la felicidad y el bienestar de los destinos para atraer a más visitantes.
+- Gobiernos y Autoridades de Turismo. Para identificar áreas que necesitan mejoras en infraestructura y servicios públicos para aumentar la felicidad de locales y visitantes, o para implementar campañas de promoción y marketing basadas en la felicidad y el bienestar de los destinos para atraer a más visitantes.
 
-- Comunidades Locales y Emprendedores
-    - Para fomentar la participación de la comunidad local en la mejora de las experiencias para logar que el turismo tenga un impacto positivo en la localidad.
-    - E identificar oportunidades de negocio y mejorar/ampliar sus servicios.
+- Comunidades Locales y Emprendedores. Para fomentar la participación de la comunidad local en la mejora de las experiencias para logar que el turismo tenga un impacto positivo en la localidad, además de identificar oportunidades de negocio y mejorar/ampliar sus servicios.
 
-- Seguros de Viaje
-    - Para evaluar el nivel de satisfacción y seguridad en diferentes destinos, ajustando las pólizas y primas en consecuencia.
-    - Ofrecer productos de seguro específicos para los destinos que suponen un mayor riesgo para los turistas, incluyendo coberturas adicionales para imprevistos.
-    - O crear campañas de publicidad y marketing de seguros de viaje en los destinos más felices, destacando la tranquilidad y seguridad que el seguro proporciona en estos lugares.
+- Seguros de Viaje. Para evaluar el nivel de satisfacción y seguridad en diferentes destinos, ajustando las pólizas y primas en consecuencia, ofrecer productos de seguro específicos para los destinos que suponen un mayor riesgo para los turistas, incluyendo coberturas adicionales para imprevistos, o crear campañas de publicidad y marketing de seguros de viaje en los destinos más felices, destacando la tranquilidad y seguridad que el seguro proporciona en estos lugares.
 
 
 ### **Visualizaciones realizadas en Tableau**
