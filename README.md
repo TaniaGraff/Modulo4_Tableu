@@ -149,19 +149,23 @@ El dashboard incluye varias visualizaciones clave para facilitar el análisis y 
 
 **Gráfico barras radial** que muestra los paises ordenados en función de su puesto en el ranking de la felicidad. El gráfico redirecciona a un mapa mundi para completar la visualización.
 
-![grafico-barras-radial](grafico-barras-radial.jpg)
+![grafico-barras-radial](grafico-barras-radial.png)
 
 **Gráfico temporal** que muestra la evolución de la tasa de felicidad en el país mejor y peor ranqueado a lo largo de los años, desde que se realiza el reporte mundial de la felicidad.
 
-![grafico-temporal](grafico-temporal.jpg)
+![grafico-temporal](grafico-temporal.png)
 
 **Gráficos de barras** que muestran los países mejor ranqueados en función de cada uno de los seis factores clave que inciden en la felicidad de un destino.
 
-![grafico-barras](grafico-barras.jpg)
+![grafico-barras](grafico-barras.png)
+
+**Gráfico de barras apiladas** que muestra los países mejor y peor ranqueados tras la combinación de los seis factores que inciden en la felicidad de un destino.
+
+![grafico-apilado](grafico-barras-apiladas.png)
 
 **Gráficos de dispersión** que muestran la correlación entre algunos de los factores que inciden en la felicidad de un destino.
 
-![grafico-dispersion](grafico-dispersion.jpg)
+![grafico-dispersion](grafico-dispersion.png)
 
 
 [Dashboard en Tableau del proyecto **Happy Holidays!**](https://public.tableau.com/app/profile/elena.aguila/viz/vacaciones_17213286392290/FINAL)
