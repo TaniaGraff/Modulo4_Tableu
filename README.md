@@ -118,9 +118,9 @@ El dashboard está dirigido a:
 
 *El dashboard de destinos turísticos más y menos felices también sirve como un recurso útil para otros sectores relacionados con el turismo, como por ejemplo:*
 
-    **Turistas y Viajeros Potenciales** Para proporcionarles información relevante sobre los mejores y peores destinos turísticos según los factores de felicidad.
+    - `Turistas y Viajeros Potenciales` Para proporcionarles información relevante sobre los mejores y peores destinos turísticos según los factores de felicidad.
 
-    **Analistas de Datos** Para realizar análisis más profundos sobre cómo los factores de felicidad afectan a los destinos turísticos y tomar decisiones informadas.
+    - `Analistas de Datos` Para realizar análisis más profundos sobre cómo los factores de felicidad afectan a los destinos turísticos y tomar decisiones informadas.
 
     **Agencias de Viajes y Operadores Turísticos**
         - Marketing y Promoción: Utilizar el dashboard para identificar y promocionar otro tipo de destinos, atrayendo a más clientes interesados en experiencias positivas y en las nuevas tendencias de turismo, como el turismo de la felicidad o del bienestar.
