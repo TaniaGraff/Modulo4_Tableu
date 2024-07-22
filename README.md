@@ -147,7 +147,7 @@ El dashboard de destinos turísticos más y menos felices no solo es una herrami
 
 El dashboard incluye varias visualizaciones clave para facilitar el análisis y la interpretación de los datos.
 
-**Gráfico barras radial** que muestra los paises ordenados en función de su puesto en el ranking de la felicidad. El gráfico redirecciona a un mapa mundi para completar la visualización.
+**Gráfico de barras radial** que muestra los paises ordenados en función de su puesto en el ranking de la felicidad. El gráfico redirecciona a un mapa mundi para completar la visualización.
 
 ![grafico-barras-radial](grafico-barras-radial.png)
 
