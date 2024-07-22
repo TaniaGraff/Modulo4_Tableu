@@ -112,15 +112,15 @@ Clasificar los destinos según el tipo de experiencias que pueden ofrecer a los 
 
 ## **FASE 3: Casos de Uso**
 ### **Público Objetivo del Dashboard**
-
 El dashboard está dirigido a:
 
-**1. Editores y Escritores de Travelers:** Para que puedan elaborar el reportaje con datos precisos y visualmente atractivos.
+**Editores y Escritores de la revista Travelers** para que puedan elaborar una serie de reportajes sobre los mejores destinos turísticos para este verano, basándose en datos precisos y visualmente atractivos.
 
-**2. Turistas y Viajeros Potenciales:** Para proporcionarles información relevante sobre los mejores y peores destinos turísticos según los factores de felicidad.
+*El dashboard de destinos turísticos más y menos felices también sirve como un recurso útil para otros sectores relacionados con el turismo, como por ejemplo:*
 
-**3. Analistas de Datos y Profesionales del Turismo:** Para realizar análisis más profundos sobre cómo los factores de felicidad afectan a los destinos turísticos y tomar decisiones informadas.
-El dashboard de destinos turísticos más y menos felices no solo es una herramienta valiosa para la creación de contenidos en la revista Travelers, sino que también sirve como un recurso útil para diversos sectores del turismo. Al utilizar esta herramienta, se pueden desarrollar estrategias basadas en datos que mejoren la experiencia del turista, impulsen las economías locales y optimicen las operaciones y servicios en el sector, como por ejemplo:
+**Turistas y Viajeros Potenciales** Para proporcionarles información relevante sobre los mejores y peores destinos turísticos según los factores de felicidad.
+
+**Analistas de Datos** Para realizar análisis más profundos sobre cómo los factores de felicidad afectan a los destinos turísticos y tomar decisiones informadas.
 
 **Agencias de Viajes y Operadores Turísticos**
 - Marketing y Promoción: Utilizar el dashboard para identificar y promocionar otro tipo de destinos, atrayendo a más clientes interesados en experiencias positivas y en las nuevas tendencias de turismo, como el turismo de la felicidad o del bienestar.
