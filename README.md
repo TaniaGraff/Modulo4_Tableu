@@ -30,14 +30,7 @@ git clone https://github.com/TaniaGraff/Modulo4/
 cd Modulo4/ETL_limpieza_y_transformacion_archivos
 ```
 
-**2. Instala las Dependencias:**
-Asegúrate de tener Python instalado y luego instala las dependencias necesarias:
-
-```python
-pip install -r requirements.txt
-```
-
-**3. Ejecuta el Script de Limpieza y Transformación:**
+**2. Ejecuta el Script de Limpieza y Transformación:**
 Navega a la carpeta `ETL_limpieza_y_transformacion_archivos/scripts` y ejecuta el script `main.py`:
 
 ```python
@@ -46,7 +39,7 @@ python scripts/main.py
 
 Este script procesará los datos descargados y generará archivos limpios y transformados en la carpeta `ETL_limpieza_y_transformacion_archivos/data/output_data`.
 
-**4. Verifica los Archivos Procesados:**
+**3. Verifica los Archivos Procesados:**
 Revisa la carpeta `output_data` para asegurarte de que los archivos procesados se han generado correctamente. Estos archivos estarán listos para ser utilizados en Tableau para la creación del dashboard.
 
 
