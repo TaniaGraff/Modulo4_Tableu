@@ -151,7 +151,7 @@ El dashboard incluye varias visualizaciones clave para facilitar el análisis y 
 ![grafico-dispersion](grafico-dispersion.png)
 
 
-[Dashboard en Tableau del proyecto **Happy Holidays!**](https://public.tableau.com/app/profile/elena.aguila/viz/vacaciones_17213286392290/FINAL)
+Dashboard en Tableau del proyecto [**Happy Holidays!**](https://public.tableau.com/views/vacaciones_17213286392290/DashboardHappyHolidays)
 
 
 
