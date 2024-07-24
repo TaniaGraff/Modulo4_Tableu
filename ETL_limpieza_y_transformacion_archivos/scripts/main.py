@@ -2,10 +2,10 @@ import soporte
 
 print('_____________     FASE 1. EXPLORACIÓN INICIAL Y LIMPIEZA DE DATOS     __________________')
 
-print('________  APERTURA CSV, EXPLORACIÓN Y LIMPIEZA DATAFRAME FELICIDAD 2023   __________')
+print('________  APERTURA EXCEL, EXPLORACIÓN Y LIMPIEZA DATAFRAME FELICIDAD 2023   __________')
 
 #Llamamos a la función de leer el excel del ranking.
-df_2023 = soporte.leer_csv('../data/input_data/DataForFigure21WHR2023.xls')
+df_2023 = soporte.leer_excel('../data/input_data/DataForFigure21WHR2023.xls')
 df_2023
 print('Las 5 primeras filas del DataFrame del RANKING DE FELICIDAD 2023 son:\n')
 print(df_2023.head())
@@ -47,10 +47,10 @@ soporte.guardar_df(df_2023, 'ranking_2023')
 
 
 
-print('________  APERTURA CSV, EXPLORACIÓN Y LIMPIEZA DATAFRAME FELICIDAD HISTÓRICO   __________')
+print('________  APERTURA EXCEL, EXPLORACIÓN Y LIMPIEZA DATAFRAME FELICIDAD HISTÓRICO   __________')
 
 #Llamamos a la función de leer el excel del ranking.
-df_historico = soporte.leer_csv('../data/input_data/DataForTable21WHR2023.xls')
+df_historico = soporte.leer_excel('../data/input_data/DataForTable21WHR2023.xls')
 df_historico
 print('Las 5 primeras filas del DataFrame del RANKING DE FELICIDAD HISTÓRICO son:\n')
 print(df_historico.head())

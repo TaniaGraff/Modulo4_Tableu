@@ -13,8 +13,8 @@ warnings.filterwarnings("ignore")
 
 """Creamos función para abrir los excel y convertir en DF.
 """
-def leer_csv(ruta_csv):
-    df= pd.read_excel(ruta_csv)
+def leer_excel(ruta_excel):
+    df= pd.read_excel(ruta_excel)
     pd.set_option('display.max_columns', None)
     return df
 
