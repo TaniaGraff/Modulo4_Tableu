@@ -6,7 +6,6 @@ La prestigiosa revista de viajes *Travelers*, nos ha encargado la elaboración d
 
 ![imagen_portada_modulo](portada.png)
 
-
 ## **FASE 1: Exploración, Limpieza y Transformación el Conjunto de Datos**
 
 Se ha automatizado la primera fase del proceso de transformación y limpieza de datos para crear dos archivos .csv con los destinos mejor ranqueados en 2023, y el histórico de los mismos desde el 2008 hasta el 2022. 
