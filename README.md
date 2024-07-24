@@ -46,9 +46,9 @@ Revisa la carpeta `output_data` para asegurarte de que los archivos procesados s
 
 ### **Objetivos de Negocio**
 
-**1. Identificación de Destinos:** Seleccionar los  mejores destinos turísticos basados en el ranking de felicidad.
+**1. Identificación de Destinos:** Seleccionar los  mejores destinos turísticos basados en el tipo de turismo que se quiera practicar.
 
-**2. Análisis de Factores:** Evaluar cómo los distintos factores considerados en el ranking de felicidad y listados a continuación, contribuyen al bienestar de los visitantes en cada destino turístico:
+**2. Análisis de Factores:** Evaluar cómo los distintos factores considerados en el ranking de felicidad y listados a continuación, influyen en la catalogación de los destinos en función del tipo de experiencia que ofrece a los visitantes: 
 
 - `Ladder Score` (Puntaje de Escalera): Mide el nivel general de felicidad de un país.
 
@@ -64,7 +64,7 @@ Revisa la carpeta `output_data` para asegurarte de que los archivos procesados s
 
 - `Perceptions of Corruption` (Percepción de la Corrupción): Mide la percepción de corrupción en el gobierno y las instituciones.
 
-**3. Visualización de Datos:** Proporcionar visualizaciones claras y comprensibles para facilitar la toma de decisiones informadas.
+**3. Visualización de Datos:** Proporcionar visualizaciones claras y comprensibles para facilitar la toma de decisiones informadas y elegir el mejor destino turístico para estas vacaciones.
 
 **4. Aumento de Engagement:** Atraer y retener lectores a través de contenido relevante y visualmente atractivo.
 
